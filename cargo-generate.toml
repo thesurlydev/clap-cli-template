@@ -1,7 +1,12 @@
 [placeholders.description]
 type = "string"
-prompt = "Description for the project"
+prompt = "Description for the project?"
 default = ""
+
+[placeholders.github_user]
+type = "string"
+prompt = "GitHub user or organization?"
+default = "digitalsanctum"
 
 [template]
 cargo_generate_version = ">=0.9.0"
