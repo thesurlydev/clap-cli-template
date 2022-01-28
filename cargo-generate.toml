@@ -2,3 +2,6 @@
 type = "string"
 prompt = "Description for the project"
 default = ""
+
+[template]
+cargo_generate_version = ">=0.9.0"
