@@ -1,0 +1,21 @@
+[package]
+name = "{{project-name}}"
+version = "0.1.0"
+description = "A command line application for managing aliases, shell functions, secrets, tools, etc."
+authors = {{authors}}
+edition = "2021"
+license-file = "LICENSE"
+readme = "README.md"
+homepage = "https://github.com/digitalsanctum/{{project-name}}"
+repository = "https://github.com/digitalsanctum/{{project-name}}"
+keywords = ["cli, "{{}}", "tools", "shell"]
+categories = ["command-line-utilities", "command-line-interface", "utilities"]
+
+[badges]
+maintenance = { status = "actively-developed" }
+
+[dependencies]
+clap = { version = "3", features = ["derive", "env"] }
+serde = "1"
+serde_derive = "1"
+serde_json = "1"
