@@ -2,7 +2,7 @@
 name = "{{project-name}}"
 version = "0.1.0"
 description = "{{description}}"
-authors = "{{authors}}"
+authors = [{{authors}}]
 edition = "2021"
 license-file = "LICENSE"
 readme = "README.md"
