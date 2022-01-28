@@ -1,0 +1,4 @@
+[placeholders.description]
+type = "string"
+prompt = "Description for the project"
+default = ""
