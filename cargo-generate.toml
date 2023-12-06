@@ -6,7 +6,7 @@ default = ""
 [placeholders.github_user]
 type = "string"
 prompt = "GitHub user or organization?"
-default = "digitalsanctum"
+default = "thesurlydev"
 
 [template]
 cargo_generate_version = ">=0.16.0"
